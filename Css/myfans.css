@@ -1,0 +1,63 @@
+ html,body{
+        max-width: 750px;
+         min-width: 320px;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            
+            background-color: #fafafa;
+         
+        }
+        div#app{
+            height: 90%;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            font-size: 1.1rem;
+            position: relative;
+            text-align: center;
+            line-height: 3rem;
+            background-color: white;
+        }
+        header>span{
+            position: absolute;
+            left: 5px;
+            font-size: 1.2rem;
+            font-weight: 800;
+
+        }
+        div.fans{
+            height: 84%;
+        }
+        div.fans>h3{
+            margin: 0px;
+            line-height: 3.0rem;
+            font-size: 1.0rem;
+            display: flex;
+                justify-content: space-around;
+                background-color: rgb(232, 234, 236);
+                font-weight:500;
+                
+        }
+        main{
+            height: 65%;
+            /* overflow: scroll; */
+        }
+        main>li{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            line-height: 3.0rem;
+            justify-content: space-around;
+        }
+        div.myfans{
+            text-align: center;
+            color: rgb(219, 68, 68);
+            line-height: 3.0rem;
+            background-color: #efd7db;
+           
+        }

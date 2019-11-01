@@ -1,0 +1,67 @@
+html,body{
+        max-width: 750px;
+         min-width: 320px;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+          
+            background-color: #fafafa;
+         
+        }
+        div#app{
+            height: 90%;
+        }
+        a{
+            text-decoration: none;
+            color: unset;
+        }
+        header{
+            font-size: 1.1rem;
+            position: relative;
+            text-align: center;
+            line-height: 3rem;
+            background-color: white;
+            border-bottom: 1px solid #eee;
+        }
+       
+        header>a{
+            position: absolute;
+            left: 5px;
+            font-size: 1.2rem;
+            font-weight: 800;
+
+        }
+        .tab{overflow: hidden;width: 100%;margin: 0 auto; padding-top: 0.3rem;}
+.scroll-tab{display: flex;position: relative;}
+.scroll-tab a{padding: 5px 10px 12px 10px;position: relative; border-bottom: 2px solid transparent;text-decoration: none;color: #333333;font-size: 16px;font-family: "arial, helvetica, sans-serif","微软雅黑"; white-space: nowrap;}
+/* .scroll-tab a.active{color: black;border-color: rgb(160, 43, 43);} */
+.scroll-tab a.active::after{
+    content: "";
+    position: absolute;
+    width: 1.8rem;
+    padding: 0.1rem 0;
+    background-color: red;
+    display: block;
+    left: calc((100% - 1.8rem) / 2);
+    bottom: 0;
+}
+        main>div.card{
+            padding:  0.7rem 1rem;
+            background-color: white;
+            border-top: 1px solid #eee;
+            
+        }
+        main>div.card>h3{
+            margin-top: 0px;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        main>div.card>p{
+            margin: 0.4rem 0rem;
+        }
+        main>div.card>div.time{
+            color: #ccc;
+            font-size: 0.8rem;
+            
+        }
